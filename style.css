@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h2 {
+    color: red;
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.form-container {
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+}
+
+#input-name {
+    padding: 10px;
+    border: 0.2px solid gray;
+    outline: none;
+}
+
+#input-name:focus, #input-name:hover {
+    background-color: rgb(205, 205, 205);
+}
+
+#btn-send {
+    padding: 10px;
+    border: 0.2px solid rgb(176, 176, 176);
+}
+
+#btn-send:hover {
+    background-color:red;
+    color: white;
+}
